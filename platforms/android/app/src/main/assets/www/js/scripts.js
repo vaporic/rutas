@@ -46,9 +46,9 @@ $(function() {
 
         var $this = $(this);
 
-        //navigator.notification.alert("La bitacora se registro correctamente", null, '', 'Cerrar');  
+        navigator.notification.alert("La bitacora se registro correctamente", null, '', 'Cerrar');  
 
-        goToPage("/");  
+        goToPage("login.html");  
 
         //TMP
         //window.localStorage.setItem("auth", "true");
